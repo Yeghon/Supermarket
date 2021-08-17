@@ -10,7 +10,6 @@ using SuperMarket.Domains.Service;
 using SuperMarket.Persistence.Contexts;
 using SuperMarket.Persistence.Repositories;
 using SuperMarket.Service;
-using Microsoft.EntityFrameworkCore;
 
 namespace SuperMarket
 {

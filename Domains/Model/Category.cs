@@ -8,6 +8,5 @@ namespace SuperMarket.Domains.Model
         public string Name { get; set;}
         public IList<Product> Products {get; set;} = new List<Product>();
 
-
     }
 }

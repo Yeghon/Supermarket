@@ -1,6 +1,6 @@
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using SuperMarket.Persistence.Contexts;
 
 namespace SuperMarket
@@ -16,22 +16,13 @@ namespace SuperMarket
             {
                 context.Database.EnsureCreated();
             }
+
             host.Run();
-            //CreateHostBuilder(args).Build().Run();
         }
 
-        public static IWebHost BuildWebHost(string[] args)
-        {
-            return WebHostBuilder.CreateDefaultBuilder(args)
-.UseStartup<Startup>()
-.Build();
-        }
-
-        /* public static IHostBuilder CreateHostBuilder(string[] args) =>
-             Host.CreateDefaultBuilder(args)
-                 .ConfigureWebHostDefaults(webBuilder =>
-                 {
-                     webBuilder.UseStartup<Startup>();
-                 });*/
+        public static IWebHost BuildWebHost(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
+            .UseStartup<Startup>()
+            .Build();
     }
 }
