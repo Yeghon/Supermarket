@@ -1,0 +1,7 @@
+C:\Users\yegon.haron\Desktop\Workspace\c#\SuperMarket\obj\Debug\net5.0\SuperMarket.csproj.AssemblyReference.cache
+C:\Users\yegon.haron\Desktop\Workspace\c#\SuperMarket\obj\Debug\net5.0\SuperMarket.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yegon.haron\Desktop\Workspace\c#\SuperMarket\obj\Debug\net5.0\SuperMarket.AssemblyInfoInputs.cache
+C:\Users\yegon.haron\Desktop\Workspace\c#\SuperMarket\obj\Debug\net5.0\SuperMarket.AssemblyInfo.cs
+C:\Users\yegon.haron\Desktop\Workspace\c#\SuperMarket\obj\Debug\net5.0\SuperMarket.csproj.CoreCompileInputs.cache
+C:\Users\yegon.haron\Desktop\Workspace\c#\SuperMarket\obj\Debug\net5.0\SuperMarket.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yegon.haron\Desktop\Workspace\c#\SuperMarket\obj\Debug\net5.0\SuperMarket.MvcApplicationPartsAssemblyInfo.cache
